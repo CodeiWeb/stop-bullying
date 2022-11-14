@@ -1,0 +1,17 @@
+main {
+  background-color: blue;
+  padding: 20px;
+}
+
+.sectionOne {
+width: 280px;
+background-color: red;
+}
+
+.sectionOne img {
+  width: 50px;
+}
+
+img {
+  width: 50px;
+}
