@@ -8,6 +8,8 @@
 @import url(footer/footer-desktop.css);
 
 
+@import url(header/header.css);
+@import url(main/main.css);
 @import url(../css/cores.css); 
 
 @import url(header/menu.css);

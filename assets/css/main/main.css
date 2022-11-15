@@ -1,5 +1,4 @@
-@media(min-width: 320px) and (max-width: 768px) {
-  main {
+main {
   background-color: var(--color4);
 }
 
@@ -12,7 +11,7 @@
 
 .sectionOne__description {
   margin-top: 20px;
-  margin-left: 80px;
+  margin-left: 100px;
   text-align: center;
   width: 194px;
   height: 70px;
@@ -21,6 +20,7 @@
 
 .sectionOne__img1 {
   width: 100%;
+  margin-left: 5%;
 }
 
 .sectionOne h2 {
@@ -36,14 +36,14 @@
 }
 
 .div-section-one p {
-  padding-top: 20px;
+  padding-top: 23px;
 
 }
 
 .sectionOne__img2 {
-  width: 180px;
+  width: 50%;
   margin-top: 24px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .sectionTwo-bg {
@@ -54,7 +54,7 @@
 
 .sectionTwo {
   margin: 0 auto;
-  width: 280px;
+  width: 300px;
 }
 .sectionTwo h2 {
   margin-bottom: 7px;
@@ -124,3 +124,75 @@
   background-color: white;
   color: #f171a1;
 }
+
+
+@media (min-width: 769px) {
+  .sectionOne {
+    width: 659px;
+  }
+
+  .sectionOne__description {
+    margin-left: 397px;
+    width: 260px; 
+  }
+
+  .sectionOne__img1{
+    width: 80%;
+    margin-left: 14.5%;
+  }
+
+.sectionOne h2 {
+  font-size: 1.563rem;
+}
+
+.div-section-one {
+  width: 560px;
+  font-size: 20px;
+}
+.sectionTwo-bg {
+  height: 680px;
+}
+.sectionTwo {
+  width: 659px;
+}
+
+.box__pictures {
+
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+
+
+.sectionThree {
+  width: 659px;
+  height: 680px;
+}
+
+.sectionThree__container {
+  margin-top: -60px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 80px;
+}
+
+.descriptionThree  {
+  font-size: 1.25rem;
+width: 250px;
+ 
+}
+
+.imageThree {
+width: 50%;
+margin-top: 60px;
+}
+
+.titleThree-two {
+  margin: 0 auto;
+  width: 270px;
+  font-size: 1.75rem;
+}
+}
+
