@@ -1,0 +1,70 @@
+
+#menu {
+  background-color: #8972CA;
+  list-style: none;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 120px;
+  left: 0;
+  transition: 0.20s;
+  visibility: hidden;  /* esconde o menu */
+  overflow: hidden;   /* ajuste de bug do overflow*/
+}
+
+#nav.active #menu { /* quando a nav estiver com a class .active o menu vai aparecer */
+  visibility: visible;  /* faz o menu aparecer */
+  overflow: auto;
+  height: 130px;
+}
+
+.menu__item {
+  color: white;
+  text-align: center;
+  margin-top: 19px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+
+
+#btn-mobile { /* Botão  de ação do menu hamburguer */
+  display: block;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  gap: .5rem;
+}
+
+#hamburguer {   /* Menu Hamburguer */
+  display: block;
+  width: 30px;
+  border-top: 2px solid;
+}
+
+#hamburguer::after, #hamburguer::before { 
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: currentColor;
+  margin-top: 5px;
+  transition: .4s;
+  position:relative;
+}
+
+#nav.active #hamburguer { /* quando a nav estiver com a class .active a linha do meio vai desaparecer*/
+  border-top-color: transparent;
+}
+
+#nav.active #hamburguer::before {  /* quando a nav estiver com a class .active a primeira linha vai fazer uma rotação de 135deg*/
+  transform: rotate(135deg);
+}
+
+#nav.active #hamburguer::after {  /* quando a nav estiver com a class .active a ultima linha ira fazer  uma rotação de -135deg*/
+  position: absolute;
+  top: 58px;
+  transform: rotate(-135deg);
+}

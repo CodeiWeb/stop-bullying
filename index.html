@@ -12,60 +12,74 @@
 <body>
   <header class="header">
     <img class="logo-sb" src="assets/pictures/images/logosb.jpg" alt="logo-sb">
-    <nav class="nav-header">
-      <ul class="ul-header">
-        <li class="li-header">Goal</li>
-        <li class="li-header">Share</li>
-        <li class="li-header">Volunteer</li>
+    <nav id="nav">
+      <button id="btn-mobile">
+        <span id="hamburguer"></span>
+      </button>
+
+      <ul id="menu">
+        <li class="menu__item">Goal</li>
+        <li class="menu__item">Share</li>
+        <li class="menu__item">Volunteer</li>
       </ul>
     </nav>
   </header>
   <main>
     <section class="sectionOne">
-      <img src="assets/pictures/images/image1.png" alt="picture-stopbullying">
-      <p>A website with the intent of helping to make and spread good messages about how to stop bullying.</p>
+      <img class="sectionOne__img1"src="assets/pictures/images/image1.png" alt="picture-stopbullying">
+      <p class="sectionOne__description">A website with the intent of helping to make and spread good messages about how to stop bullying.</p>
       <h2>What is the website main goal?</h2>
-      <img src="assets/pictures/images/image2.jpg" alt="">
-      <p>The goal for this website is to spread the antibullying message with well prepared and research material that will be easily available for free, for all of those who wise to contruibut and fight for the cause</p>
+      <div class="div-section-one">
+        <img align="left" class="sectionOne__img2" src="assets/pictures/images/image2.jpg" alt="">
+        <p>The goal for this website is to spread the antibullying message with well prepared and research material that will be easily available for free, for all of those who wise to contruibut and fight for the cause</p>
+      </div>
     </section>
 
-    <section class="sectionTwo">
-      <h2>How do i share the posters?</h2>
-      <p>We crate the posters and you can share them in any way you can!</p>
-      <p>With the click of button share these nw on your social medias:</p>
-      <picture>
-        <img src="assets/pictures/images/poster1.png" alt="poster-one">
-        <button>SHARE</button>
-      </picture>
-      <picture>
-        <img src="assets/pictures/images/poster2.png" alt="poster-two">
-        <button>SHARE</button>
-      </picture>
-      <picture>
-        <img src="assets/pictures/images/poster3.png" alt="poster-three">
-        <button>SHARE</button>
-      </picture>
-      <p>A few other suggestions are:</p>
-      <p>- Print them and display.</p>
-      <p>- Save them and send them to a friend.</p>
+    <section class="sectionTwo-bg">
+      <div class="sectionTwo">
+        <h2>How do i share the posters?</h2>
+        <p  class="descripitionTwo">We crate the posters and you can share them in any way you can!</p>
+        <p  class="descripitionTwo">With the click of button share these nw on your social medias:</p>
+        <picture>
+          <img src="assets/pictures/images/poster1.png" alt="poster-one">
+          <button>SHARE</button>
+        </picture>
+        <picture>
+          <img src="assets/pictures/images/poster2.png" alt="poster-two">
+          <button>SHARE</button>
+        </picture>
+        <picture>
+          <img src="assets/pictures/images/poster3.png" alt="poster-three">
+          <button>SHARE</button>
+        </picture>
+        <p">A few other suggestions are:</p>
+        <p>- Print them and display.</p>
+        <p>- Save them and send them to a friend.</p>
+      </div>
     </section>
 
     <section class="sectionThree">
-      <h2>How do i volunteer?</h2>
-      <p>We welcome any help! A few ways that one can help is by spreading the word, sharing your talents and helping us to create more content or donate to the cause and help us to continue our research and work.</p>
-      <img src="assets/pictures/images/image3.png" alt="">
+      <h2 class="titleThree">How do i volunteer?</h2>
+      <p class="descriptionThree">We welcome any help! A few ways that one can help is by spreading the word, sharing your talents and helping us to create more content or donate to the cause and help us to continue our research and work.</p>
+      <img class="imageThree"src="assets/pictures/images/image3.png" alt="">
 
-      <p>One minute of your time might chance someone's entire life.</p>
-      <button>SHARE TIS MESSAGE</button>
+      <h2 class="titleThree-two">One minute of your time might chance someone's entire life.</p>
+      <button type="button" class="buttonThree">SHARE THIS MESSAGE</button>
     </section>
   </main>
 
   <footer>
-    <p class="copy">Copyright ©2022 Stop Bullying</p>
-    <img src="assets/pictures/images/sm1.jpg" alt="icone-instagram">
-    <img src="assets/pictures/images/sm2.jpg" alt="icone-whatsapp">
-    <img src="assets/pictures/images/sm3.jpg" alt="icone-facebook">
+    <div class="copy">
+      <p>Copyright ©2022 Stop Bullying</p>
+    </div>
+    <div class="logos">
+      <img class="logos-footer" src="assets/pictures/images/sm2.jpg" alt="icone-whatsapp">
+      <img class="logos-footer" src="assets/pictures/images/sm1.jpg" alt="icone-instagram">
+      <img class="logos-footer" src="assets/pictures/images/sm3.jpg" alt="icone-facebook">
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

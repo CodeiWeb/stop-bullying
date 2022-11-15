@@ -1,10 +1,17 @@
 .header {
-  width: 320px;
+  align-items: center;
+  width: 300px;
   height: 100px;
   display: flex;
   justify-content: space-between;
+  color: var(--color1);
+  padding: 10px;
 }
 
 .logo-sb {
   width: 100px;
+}
+
+.nav-header {
+  display: none;
 }
