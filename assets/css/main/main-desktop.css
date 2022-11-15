@@ -1,0 +1,133 @@
+main {
+  background-color: var(--color4);
+}
+
+.sectionOne {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 900px;
+  padding-bottom: 100px;
+}
+
+.sectionOne__description {
+  margin-top: 20px;
+  margin-left: 700px;
+  text-align: center;
+  width: 194px;
+  height: 70px; 
+  font-style: italic;
+}
+
+.sectionOne__img1 {
+  width: 70%;
+  margin-left: 20%;
+}
+
+.sectionOne h2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 58px;
+}
+
+.div-section-one {
+  width: 280px;
+  height: 200px;
+
+}
+
+.div-section-one p {
+  padding-top: 20px;
+
+}
+
+.sectionOne__img2 {
+  width: 180px;
+  margin-top: 24px;
+  margin-right: 5px;
+}
+
+.sectionTwo-bg {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.sectionTwo {
+  margin: 0 auto;
+  width: 280px;
+}
+.sectionTwo h2 {
+  margin-bottom: 7px;
+  padding: 50px 0px 0px 0px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.sectionTwo picture {
+  margin: 0 auto;
+  display: block;
+  width: 220px;
+}
+
+.sectionTwo picture button {
+  margin: 15px auto 60px;
+  display: block;
+  width: 100px;
+  height: 37px;
+  background-color: transparent;
+  text-transform: uppercase;
+  border: solid blue;
+  color: blue;
+  font-size: 23px;
+}
+
+.sectionTwo picture img {
+  width: 100%;
+}
+
+.descripitionTwo {
+  margin-bottom: 20px;
+}
+
+.sectionThree {
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 50px;
+  width: 280px;
+}
+
+.imageThree {
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.titleThree {
+  margin-bottom: 20px;
+}
+
+.descriptionThree {
+  margin-bottom: 40px;
+}
+
+.titleThree-two {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.buttonThree {
+  margin-top: 40px;
+  font-weight: 900;
+  height: 60px;
+  width: 150px;
+  padding: 2px;
+  border-color: blue;
+  background-color: white;
+  color: #f171a1;
+}
+
+
+@media (min-width: 769px) {
+  header {
+    background-color: red;
+  }
+}

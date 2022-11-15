@@ -1,0 +1,22 @@
+@media (min-width: 320px) and (max-width: 768px) {
+  footer {
+    margin: 0 auto;
+    width: 280px;
+    height: 100px;
+    text-align: center;
+  }
+
+  .copy {
+    padding-top: 25px;
+  }
+
+  .logos {
+    width: 200px;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+  .logos-footer {
+    height: 30px;
+    padding: 8px;
+  }
+}

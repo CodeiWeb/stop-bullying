@@ -1,9 +1,11 @@
-main {
+@media(min-width: 320px) and (max-width: 768px) {
+  main {
   background-color: var(--color4);
 }
 
 .sectionOne {
-  padding: 20px;
+  padding-top: 20px;
+  margin: 0 auto;
   width: 280px;
   padding-bottom: 100px;
 }
@@ -88,6 +90,7 @@ main {
 }
 
 .sectionThree {
+  margin: 0 auto;
   padding: 20px;
   padding-top: 50px;
   width: 280px;

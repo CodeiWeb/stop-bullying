@@ -1,0 +1,25 @@
+footer {
+  margin: 0 auto;
+  width: 900px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+}
+
+.copy {
+  margin: auto;
+  justify-content: center;
+  text-align: end;
+  width: 450px;
+}
+
+.logos {
+  width: 450px;
+  margin: auto;
+  display: flex; 
+  margin-left: 30px;
+}
+.logos-footer {
+  height: 30px;
+  padding: 8px;
+}
