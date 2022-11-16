@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@import url(header/header-mobile.css);
-@import url(header/header-desktop.css);
-@import url(main/main-mobile.css);
-@import url(main/main-desktop.css);
-@import url(footer/footer-mobile.css);
-@import url(footer/footer-desktop.css);
-
+@import url(color.css);
 
 @import url(header/header.css);
 @import url(main/main.css);
-@import url(../css/cores.css); 
-
+@import url(footer/footer.css);
 @import url(header/menu.css);
 
 

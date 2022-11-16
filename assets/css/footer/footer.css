@@ -1,0 +1,50 @@
+/* Mobile 320 - 768 */
+footer {
+  margin: 0 auto;
+  width: 17.5rem;
+  height: 6.25rem;
+  text-align: center;
+}
+
+.copy_description {
+  padding-top: 1.563rem;
+}
+
+.copy_logos {
+  width: 12.5rem;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.copy_logos_footer {
+  height: 1.875rem;
+  padding: 0.5rem;
+}
+
+/* Desktop 769 - 1024 */
+@media (min-width: 769px) {
+  footer {
+    margin: 0 auto;
+    width: 46.813rem;
+    height: 6.25rem;
+    text-align: center;
+    display: flex;
+  }
+
+  .copy_description {
+    margin-top: 1.188rem;
+    justify-content: center;
+    text-align: center;
+    width: 23.406rem;
+  }
+
+  .copy_logos {
+    width: 23.406rem;
+    margin: auto;
+  }
+  
+  .copy_logos_footer {
+    height: 2.5rem;
+    padding: 0.5rem;
+  }
+}

@@ -1,25 +1,34 @@
+/* Mobile 320 - 768 */
 .header {
   margin: 0 auto;
   align-items: center;
-  width: 300px;
-  height: 100px;
+  width: 18.75rem;
+  height: 6.25rem;
   display: flex;
   justify-content: space-between;
   color: var(--color1);
-  padding: 10px;
+  padding: 0.625rem;
 }
 
-.logo-sb {
-  width: 100px;
+.logo_sb {
+  width: 6.25rem;
 }
 
 .nav-header {
   display: none;
 }
-
+/* Desktop 769 - 1024 */
 @media (min-width: 769px) {
   .header {
-    width: 749px;
-    justify-content: space-around;
+    width: 41.188rem;
+    justify-content: space-between;
+    padding: 0;
   }
 }
+
+
+@media  (min-width: 1300px) {
+  .header {
+    width: 72.4375rem;
+    }
+  }

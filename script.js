@@ -1,9 +1,9 @@
-const btnmobile = document.getElementById('btn-mobile'); // selecionando o id btn-mobile que esta no html
+const btnmobile = document.getElementById('btn-mobile'); // selecting the btn-mobile id that is in the html
 
-function clicouNoMenu() {  // função '' clicouNoMenu''
-  const nav = document.getElementById('nav'); // selecionando o id nav
-  nav.classList.toggle('active')  // Adicione a class 'active' caso não tenha esta função, caso tenha remova a class 'active' 
+function clickOnMenu() {  // function 'clickOnMenu'
+  const nav = document.getElementById('nav'); // selecting nav id
+  nav.classList.toggle('active')  // Add the 'active' class if you don't have this function, if you do, remove the 'active' class
 }
 
 
-btnmobile.addEventListener('click', clicouNoMenu); // evento ao clicar ative a função '' clicouNoMenu''
+btnmobile.addEventListener('click', clickOnMenu); // event when clicking activate the function 'clickOnMenu '

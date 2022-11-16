@@ -1,5 +1,4 @@
-
-
+/* Menu Hamburger - JavaScript */
 @media (min-width: 320px) and (max-width: 768px) {
   #menu {
     background-color: #8972ca;
@@ -8,30 +7,33 @@
     position: absolute;
     width: 100%;
     height: 0;
-    top: 120px;
+    top: 7.5rem;
     left: 0;
     transition: 0.2s;
-    visibility: hidden; /* esconde o menu */
-    overflow: hidden; /* ajuste de bug do overflow*/
+    visibility: hidden; /* hide the menu */
+    overflow: hidden;
   }
-
-  #nav.active #menu {
-    /* quando a nav estiver com a class .active o menu vai aparecer */
-    visibility: visible; /* faz o menu aparecer */
+  
+  #nav.active #menu { /* when the nav has the .active class the menu will appear*/
+    visibility: visible; /* make the menu appear */
     overflow: auto;
-    height: 130px;
+    height: 8.125rem;
   }
 
   .menu__item {
-    color: white;
+    color: var(--color0);
     text-align: center;
-    margin-top: 19px;
-    padding-left: 9px;
-    padding-right: 9px;
+    margin-top: 1.1875rem;
+    padding-left: .5625rem;
+    padding-right: .5625rem;
   }
 
-  #btn-mobile {
-    /* Botão  de ação do menu hamburguer */
+  .menu__item a {
+    text-decoration: none;
+    color: var(--color0);
+  }
+
+  #btn-mobile {/* Burger menu action button */
     display: block;
     padding: 0.5rem 1rem;
     border: none;
@@ -43,36 +45,36 @@
   #hamburguer {
     /* Menu Hamburguer */
     display: block;
-    width: 30px;
-    border-top: 2px solid;
+    width: 1.875rem;
+    border-top: .125rem solid;
   }
 
   #hamburguer::after,
   #hamburguer::before {
     content: "";
     display: block;
-    width: 30px;
-    height: 2px;
+    width: 1.875rem;
+    height: .125rem;
     background-color: currentColor;
-    margin-top: 5px;
+    margin-top: .3125rem;
     transition: 0.4s;
     position: relative;
   }
 
   #nav.active #hamburguer {
-    /* quando a nav estiver com a class .active a linha do meio vai desaparecer*/
+    /* when the nav is with the .active class the middle line will disappear*/
     border-top-color: transparent;
   }
 
   #nav.active #hamburguer::before {
-    /* quando a nav estiver com a class .active a primeira linha vai fazer uma rotação de 135deg*/
+    /* when the nav has the .active class, the first line will rotate by 135deg*/
     transform: rotate(135deg);
   }
 
   #nav.active #hamburguer::after {
-    /* quando a nav estiver com a class .active a ultima linha ira fazer  uma rotação de -135deg*/
+    /* when the nav has the .active class, the last line will rotate -135deg*/
     position: absolute;
-    top: 58px;
+    top: 3.625rem;
     transform: rotate(-135deg);
   }
 }
@@ -82,8 +84,9 @@
   #menu {
     margin: 0 auto;
     display: flex;
-    color: black;
-    gap: 70px;
+    color: var(--color5);
+    gap: 4.375rem;
+    
   }
   .menu__item {
     font-weight: 600;
@@ -91,6 +94,12 @@
     font-size: 1.25rem;
     
   }
+
+  .menu__item a {
+    text-decoration: none;
+    color: var(--color5);
+  }
+  
   #btn-mobile {
     display: none;
   }
